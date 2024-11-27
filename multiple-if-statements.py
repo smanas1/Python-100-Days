@@ -4,7 +4,7 @@ print("Ticket Price For Age")
 
 userAge = int(input("Enter your age \n"))
 
-if userAge <= 18 :
+if userAge < 18 :
    
     if userAge < 10 :
         print("Ticket Price: $5")
@@ -12,5 +12,4 @@ if userAge <= 18 :
     elif userAge <= 17:
         print("Ticket Price: $7")
 else :
-    print("Ticket Price: $12")
-
+    print("Ticket Price: $15")
